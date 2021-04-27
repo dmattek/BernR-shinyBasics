@@ -9,6 +9,8 @@
 
 library(shiny)
 
+# User interface ----
+
 # Define UI for application that draws a histogram
 ui = fluidPage(
   
@@ -33,7 +35,7 @@ ui = fluidPage(
 )
 
 
-
+# Server part ----
 
 # Define server logic required to draw a histogram
 server = function(input, output) {
